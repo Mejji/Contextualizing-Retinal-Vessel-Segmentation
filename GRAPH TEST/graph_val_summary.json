@@ -1,0 +1,33 @@
+[
+  {
+    "pair": "01",
+    "edge_jaccard": 0.15579087960312918,
+    "shin_nodes": 21904,
+    "ours_nodes": 21904,
+    "delta_pct_nodes": 0.0,
+    "shin_edges": 24272,
+    "ours_edges": 24188,
+    "delta_pct_edges": -0.34607778510217535,
+    "shin_density": 0.00010118322678245976,
+    "ours_density": 0.00010083305411231611,
+    "delta_pct_density": -0.3460777851021815,
+    "shin_avg_degree": 2.2162162162162162,
+    "ours_avg_degree": 2.20854638422206,
+    "delta_pct_avg_degree": -0.3460777851021683,
+    "shin_avg_path_len": 48.355406591972404,
+    "ours_avg_path_len": 52.08099297049328,
+    "delta_pct_avg_path_len": 7.704591153493406,
+    "shin_diameter": 128,
+    "ours_diameter": 154,
+    "delta_pct_diameter": 20.3125,
+    "shin_num_components": 16449,
+    "ours_num_components": 16474,
+    "delta_pct_num_components": 0.15198492309562892,
+    "shin_num_components_ge2": 145,
+    "ours_num_components_ge2": 167,
+    "delta_pct_num_components_ge2": 15.172413793103448,
+    "shin_num_isolates": 16304,
+    "ours_num_isolates": 16307,
+    "delta_pct_num_isolates": 0.018400392541707555
+  }
+]
