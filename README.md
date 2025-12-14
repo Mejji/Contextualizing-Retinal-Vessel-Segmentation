@@ -51,6 +51,18 @@ pip install -r requirements.txt
 
 PyTorch CUDA builds: install from the official index, e.g. `pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121`.
 
+## How to Run?
+1. #### Train or infer the CNN backbone
+Train a CNN model (DRIU or DA-U²Net) to generate vessel probability maps from fundus images.
+This stage produces per-image probability maps that serve as input to the graph module.
+
+2. #### Generate vessel graphs from CNN outputs
+Use make_graph_db.py to construct graph representations from the generated CNN probability maps.
+This step converts dense pixel predictions into graph structures encoding vessel connectivity and geometry.
+  
+3. #### Train the Vessel Graph Network (VGN)
+Train the VGN using the generated graph files (.graph_res) and corresponding CNN probability maps to refine segmentation results by enforcing global structural consistency.
+
 ## Quick Smoke Tests
 Small sanity runs that do not need full datasets (limit images, skip restores):
 ```bash
