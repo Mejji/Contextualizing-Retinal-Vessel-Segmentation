@@ -11,6 +11,7 @@ End-to-end code for retinal vessel segmentation that pairs a TensorFlow CNN (DRI
 - [Boot Straps/](Boot%20Straps/) – analysis notebooks and CSV outputs for experiments.
 - [DATASETS/](DATASETS/) – expected location for DRIVE/CHASE_DB1/HRF datasets (not bundled).
 - [pretrained_model/VGG_imagenet.npy](pretrained_model/VGG_imagenet.npy) – VGG weights for CNN initialization.
+  (https://drive.google.com/drive/folders/1ZmAeAxUiD8erK1g_FbyGl9mWMPhXbf1S?usp=drive_link)
 - [results/](results/) and `*/VGN*` – optional output roots for saved probability maps, segmentations, graphs.
 
 - Check the DATASETS and FUll Results here: https://drive.google.com/drive/folders/1RA81mUorVMKlXSNVj1l4XWL5FPpkoQJW?usp=sharing
