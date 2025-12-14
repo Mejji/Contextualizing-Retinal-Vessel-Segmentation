@@ -109,3 +109,12 @@ GPU (CUDA/DirectML) builds are not baked in; prefer native installs for GPU trai
 - If a checkpoint is not found, pass `--skip_restore` (smoke) or point `--model_path` to a concrete `.ckpt` prefix.
 - HRF images are large; ensure enough RAM/GPU memory or set `AUC_MAX_SAMPLES` env var to downsample metrics.
 
+<img width="895" height="614" alt="{0EC1331D-F5EF-4FCF-BD2B-BD689E300D80}" src="https://github.com/user-attachments/assets/6e4f5793-279a-4dec-984a-ea482e0a927e" />
+<img width="895" height="622" alt="{EA9BFE22-ED96-4118-A6E0-DB02DA04475E}" src="https://github.com/user-attachments/assets/eead9c37-507a-4d83-8582-f2431bd8f90d" />
+<img width="898" height="621" alt="{65AB6D21-A281-4DE4-94FF-C1603DD12C76}" src="https://github.com/user-attachments/assets/b9318b27-d58d-40c8-b194-a1c0c8efbe04" />
+<img width="897" height="618" alt="{366B94B1-E0D0-4052-AA5C-610E3B6902E4}" src="https://github.com/user-attachments/assets/d443adc3-6f71-4af9-8e85-75b47d39fbbf" />
+<img width="898" height="622" alt="{BB6CD699-97FE-4D83-A46A-06D5B716B5A2}" src="https://github.com/user-attachments/assets/280443d0-632f-4de0-a9cf-f5ce37d7cbcf" />
+
+
+
+
