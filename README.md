@@ -1,7 +1,7 @@
 # Contextualizing-Retinal-Vessel-Segmentation
 Contextualizing Retinal Vessel Segmentation:  An Attention-based Adaptive Fusion of Local Features and Global Topology
 
-# Retinal Vessel Segmentation (CNN + VGN)
+# Retinal Vessel Segmentation (CNN + VGN + Attention)
 
 End-to-end code for retinal vessel segmentation that pairs a TensorFlow CNN (DRIU variants) with a graph refinement module (Vessel Graph Network). The repo includes preprocessing utilities, training/inference scripts, evaluation, and a small Tkinter demo for qualitative browsing.
 
