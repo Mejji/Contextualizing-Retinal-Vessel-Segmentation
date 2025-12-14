@@ -13,6 +13,8 @@ End-to-end code for retinal vessel segmentation that pairs a TensorFlow CNN (DRI
 - [pretrained_model/VGG_imagenet.npy](pretrained_model/VGG_imagenet.npy) – VGG weights for CNN initialization.
 - [results/](results/) and `*/VGN*` – optional output roots for saved probability maps, segmentations, graphs.
 
+- Check the DATASETS and FUll Results here: https://drive.google.com/drive/folders/1RA81mUorVMKlXSNVj1l4XWL5FPpkoQJW?usp=sharing
+
 ## Data Setup
 - Default dataset root is `THESIS_DATASETS_ROOT` (falls back to `C:/Users/rog/THESIS/DATASETS`). Adjust paths in [code/config.py](code/config.py) or set env vars:
   - `THESIS_DATASETS_ROOT` for DRIVE/CHASE_DB1/HRF
